@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import { Mail, Phone, MapPin, ClipboardCheck, Sparkles, MessageSquare } from 'lucide-react';
 import { api, ApiError } from '../lib/api';
 
@@ -94,9 +95,9 @@ export default function ContactPage() {
                                 <p className="text-xs text-white/70 leading-relaxed mb-4">
                                     For fully-custom itineraries, it's best to use our dedicated Custom Tour Request form.
                                 </p>
-                                <a href="/custom-tour-request" className="inline-flex items-center gap-1.5 text-xs font-semibold text-accent-300 hover:text-accent-200 transition-colors">
+                                <Link to="/custom-tour-request" className="inline-flex items-center gap-1.5 text-xs font-semibold text-accent-300 hover:text-accent-200 transition-colors">
                                     Go to Request Form →
-                                </a>
+                                </Link>
                             </div>
                         </div>
                     </div>
