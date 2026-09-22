@@ -727,7 +727,7 @@ export default function BuildTourPage() {
                                                         <h4 className="font-bold text-sm text-surface-850">{day.title}</h4>
                                                         <p className="text-xs text-surface-500 mt-1">📍 Destination Hub: {day.destination}</p>
                                                         <p className="text-xs text-surface-500">🏢 Lodging: {day.accommodation}</p>
-                                                        <p className="text-xs text-surface-500 mt-1">✨ Events: {day.activities.join(', ')}</p>
+                                                        <p className="text-xs text-surface-500 mt-1">Events: {day.activities.join(', ')}</p>
                                                     </div>
                                                 </div>
                                             ))}
@@ -840,7 +840,7 @@ export default function BuildTourPage() {
                                         )}
                                         {priceBreakdown.additionalServices.total > 0 && (
                                             <div className="flex justify-between items-center">
-                                                <span>✨ Special Personnel & Guides</span>
+                                                <span>Special Personnel & Guides</span>
                                                 <span className="font-semibold text-surface-850">
                                                     {currencySymbols[selectedCurrency]}{convertPrice(priceBreakdown.additionalServices.total)}
                                                 </span>

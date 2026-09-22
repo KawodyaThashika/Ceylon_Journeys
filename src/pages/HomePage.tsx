@@ -389,7 +389,7 @@ function WhyChooseSection() {
             <div className="container-custom">
                 <div className={`text-center mb-14 transition-all duration-700 ${inView ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
                     <span className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white/10 text-white/90 text-sm border border-white/20 mb-4">
-                        ✨ Why Choose Us
+                        Why Choose Us
                     </span>
                     <h2 className="text-3xl sm:text-4xl lg:text-5xl font-display font-bold mb-4">
                         Your <span className="text-accent-400">Personal Travel Expert</span> in Sri Lanka

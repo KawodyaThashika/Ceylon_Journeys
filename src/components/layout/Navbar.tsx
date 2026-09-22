@@ -80,7 +80,7 @@ export default function Navbar() {
                         </a>
                         <span className="text-primary-300">|</span>
                         <Link to="/build-tour" className="font-semibold text-accent-300 hover:text-accent-200 transition-colors">
-                            ✨ Plan Your Dream Trip
+                            Plan Your Dream Trip
                         </Link>
                     </div>
                 </div>

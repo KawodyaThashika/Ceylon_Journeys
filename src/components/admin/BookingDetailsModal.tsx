@@ -287,7 +287,7 @@ export default function BookingDetailsModal({ booking, onClose }: BookingDetails
                                         <h4 className="font-bold text-surface-900 text-xs mt-1.5">{day.title}</h4>
                                         <div className="mt-2 pl-3 border-l-2 border-primary-500 space-y-1 text-surface-555">
                                             {day.accommodation && <p>🏨 <strong>Accommodation:</strong> {day.accommodation}</p>}
-                                            {day.activities && <p>✨ <strong>Excursions:</strong> {Array.isArray(day.activities) ? day.activities.join(', ') : day.activities}</p>}
+                                            {day.activities && <p><strong>Excursions:</strong> {Array.isArray(day.activities) ? day.activities.join(', ') : day.activities}</p>}
                                             {day.meals && <p>🍽️ <strong>Meals:</strong> {Array.isArray(day.meals) ? day.meals.join(', ') : day.meals}</p>}
                                         </div>
                                     </div>
